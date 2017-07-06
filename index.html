@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Quicky Quiz</title>
+  </head>
+  <body>
+    <header><b> ~Quicky Quiz for those with inquiring minds~</header><br>
+    <header>
+
+      Choose ONE correct answer for each of the 5 questions and get 2 points,
+      otherwise you will loose a <br> point for a wrong answer, but keep
+      trying until you have found the correct answer ! <br> Happy Quizzing !
+    </header>
+    <br>
+
+    <header1>"What is the state bird of Indiana ?"</header1><br><br>
+    <!-- <form action="addtwoPoints">
+      Write Your Answer: <inpute type="text" name= "Write Your Answer" value=
+    <p id="q1"> <<!on submit i need to add only "twoPoints" on-!>>
+<p id="para"></p>
+      <button onclick="changeColor('blue');"> -->
+
+           Wren:<input type="radio"><br>
+           Robin:<input type="radio"><br>
+           Cardinal:<input type="radio" id="correctAnswer"><br>
+           Starling:<input type="radio"><br>
+            <br><button onclick="correctAnswer()">Submit</button><br>
+            <input type="reset" value="Reset">
+           <script>
+           document.getElementById("correctAnswer").addEventListener("click",function twopointsCount(){
+            
+           });
+           </script>
+      <br>
+
+  </p><br>
+
+
+    <header2>"Who was the governor of Indiana in 2015?"</header2><br><br>
+      Evan Bayh:<input type="radio"><br>
+      Mike Pence:<input type="radio" id="correctAnswer"><br>
+      Andre Carson:<input type="radio"><br>
+      Dan Coats:<input type="radio"><br>
+        <br><button onclick="correctAnswer()">Submit</button><br>
+        <input type="reset" value="Reset">
+      <script>
+      document.getElementById("correctAnswer").addEventListener("click",function twopointsCount(){
+        alert ("correctPoints");
+      });
+      </script>
+
+    </p><br>
+
+    <header3>"What national rank does Indiana have for cost of living?"
+    </header3><br><br>
+      50th:<input type="radio"><br>
+      25th:<input type="radio"><br>
+      14th:<input type="radio"><br>
+      4th:<input type="radio" id="correctAnswer"><br>
+        <br><button onclick="correctAnswer()">Submit</button><br>
+        <input type="reset" value="Reset">
+      <script>
+      document.getElementById("correctAnswer").addEventListener("click",function twopointsCount(){
+        alert ("correctPoints");
+      });
+      </script>
+  </p><br>
+
+
+    <header4>"In What city do I live?"</header4><br><br>
+      Carmel:<input type="radio" ><br>
+      Lafayette:<input type="radio"><br>
+      Indianapolis:<input type="radio" id="correctAnswer"><br>
+      Bloomington:<input type="radio"><br><br>
+          <button onclick="correctAnswer()">Submit</button><br>
+          <input type="reset" value="Reset">
+    <script>
+    document.getElementById("correctAnswer").addEventListener("click",function twopointsCount(){
+      alert ("correctPoints");
+    });
+    </script>
+    </p><br>
+
+    <header5>"Who is my Coder Camp Mentor?"</header5><br><br>
+        Isaac:<input type="radio"><br>
+        Olivia:<input type="radio" id="correctAnswer"><br>
+        Christian:<input type="radio"><br>
+        George:<input type="radio"><br><br>
+          <button onclick="correctAnswer()">Submit</button><br>
+          <input type="reset" value="Reset">
+        <script>
+        document.getElementById("correctAnswer").addEventListener("click",function twopointsCount(){
+          alert ("correctPoints");
+        });
+        </script>
+
+    </p><br>
+    <p>
+      <header6> "Total points"</header6>
+        <button id="correctAnswer">Total</button>
+        <input type="reset" value="Reset">
+    <script>
+    document.getElementById("correctAnswer").addEventListener("click",function twopointsCount(){
+      alert ("correctPoints");
+    });
+    </script>
+
+
+
+
+  </form>
+</p>
+<!--script>
+ document.getElementById("q1","button3")+ ("q2", "button2") + ("q3","button4") +
+      ("q4","button3)+ ("q4", "button2").innerHTML = ("button1 + button2 + button3 + button4 + button5);
+      alert "Congratulations You have 10 points !"
+    </script-->
+
+  <script src = "Archive/quiz.js"></script>
+  </body>
+
+</html>
