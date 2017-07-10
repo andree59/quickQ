@@ -12,7 +12,8 @@
       otherwise you will loose a <br> point for a wrong answer, but keep
       trying until you have found the correct answer ! <br> Happy Quizzing !
     </header>
-    <br>
+          <br>
+   <div1>
 
     <header1>"What is the state bird of Indiana ?"</header1><br><br>
     <!-- <form action="addtwoPoints">
@@ -21,90 +22,68 @@
 <p id="para"></p>
       <button onclick="changeColor('blue');"> -->
 
-           Wren:<input type="radio"><br>
-           Robin:<input type="radio"><br>
-           Cardinal:<input type="radio" id="correctAnswer"><br>
-           Starling:<input type="radio"><br>
-            <br><button onclick="correctAnswer()">Submit</button><br>
+           Wren:      <input type="radio"><br>
+           Robin:     <input type="radio"><br>
+           Cardinal:  <input type="radio" name="correctPoints"><br>
+           Starling:  <input type="radio"><br>
+            <br><button onclick="gradeQuiz()">Submit</button><br>
             <input type="reset" value="Reset">
-           <script>
-           document.getElementById("correctAnswer").addEventListener("click",function twopointsCount(){
-            
-           });
-           </script>
+
       <br>
 
-  </p><br>
+          </p><br></div1>
 
-
+  <div2>
     <header2>"Who was the governor of Indiana in 2015?"</header2><br><br>
-      Evan Bayh:<input type="radio"><br>
-      Mike Pence:<input type="radio" id="correctAnswer"><br>
-      Andre Carson:<input type="radio"><br>
-      Dan Coats:<input type="radio"><br>
-        <br><button onclick="correctAnswer()">Submit</button><br>
+      Evan Bayh:    <input type="radio"><br>
+      Mike Pence:   <input type="radio" name="correctPoints"><br>
+      Andre Carson: <input type="radio"><br>
+      Dan Coats:    <input type="radio"><br>
+        <br><button onclick="gradeQuiz()">Submit</button><br>
         <input type="reset" value="Reset">
-      <script>
-      document.getElementById("correctAnswer").addEventListener("click",function twopointsCount(){
-        alert ("correctPoints");
-      });
-      </script>
 
-    </p><br>
+
+            </p><br></div2>
+  <div3>
 
     <header3>"What national rank does Indiana have for cost of living?"
     </header3><br><br>
-      50th:<input type="radio"><br>
-      25th:<input type="radio"><br>
-      14th:<input type="radio"><br>
-      4th:<input type="radio" id="correctAnswer"><br>
-        <br><button onclick="correctAnswer()">Submit</button><br>
+      50th:         <input type="radio"><br>
+      25th:         <input type="radio"><br>
+      14th:         <input type="radio"><br>
+      4th:          <input type="radio" name="correctPoints"><br>
+        <br><button onclick="gradeQuiz()">Submit</button><br>
         <input type="reset" value="Reset">
-      <script>
-      document.getElementById("correctAnswer").addEventListener("click",function twopointsCount(){
-        alert ("correctPoints");
-      });
-      </script>
-  </p><br>
+
+          </p><br></div3>
+ <div4>
 
 
     <header4>"In What city do I live?"</header4><br><br>
-      Carmel:<input type="radio" ><br>
-      Lafayette:<input type="radio"><br>
-      Indianapolis:<input type="radio" id="correctAnswer"><br>
-      Bloomington:<input type="radio"><br><br>
-          <button onclick="correctAnswer()">Submit</button><br>
+      Carmel:       <input type="radio" ><br>
+      Lafayette:    <input type="radio"><br>
+      Indianapolis: <input type="radio" name="correctPoints"><br>
+      Bloomington:  <input type="radio"><br><br>
+          <button onclick="gradeQuiz()">Submit</button><br>
           <input type="reset" value="Reset">
-    <script>
-    document.getElementById("correctAnswer").addEventListener("click",function twopointsCount(){
-      alert ("correctPoints");
-    });
-    </script>
-    </p><br>
+
+            </p><br></div4>
+  <div5>
 
     <header5>"Who is my Coder Camp Mentor?"</header5><br><br>
-        Isaac:<input type="radio"><br>
-        Olivia:<input type="radio" id="correctAnswer"><br>
-        Christian:<input type="radio"><br>
-        George:<input type="radio"><br><br>
-          <button onclick="correctAnswer()">Submit</button><br>
+        Isaac:      <input type="radio"><br>
+        Olivia:     <input type="radio" name="correctPoints"><br>
+        Christian:  <input type="radio"><br>
+        George:     <input type="radio"><br><br>
+          <button onclick="gradeQuiz()">Submit</button><br>
           <input type="reset" value="Reset">
-        <script>
-        document.getElementById("correctAnswer").addEventListener("click",function twopointsCount(){
-          alert ("correctPoints");
-        });
-        </script>
 
-    </p><br>
-    <p>
+            </p><br></div5>
+      <p>
       <header6> "Total points"</header6>
-        <button id="correctAnswer">Total</button>
+
+        <button onclick="gradeQuiz()">Submit</button>
         <input type="reset" value="Reset">
-    <script>
-    document.getElementById("correctAnswer").addEventListener("click",function twopointsCount(){
-      alert ("correctPoints");
-    });
-    </script>
 
 
 
@@ -117,7 +96,7 @@
       alert "Congratulations You have 10 points !"
     </script-->
 
-  <script src = "Archive/quiz.js"></script>
+  <script src = "quiz.js"></script>
   </body>
 
 </html>

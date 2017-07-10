@@ -14,10 +14,12 @@
 // function gradeQuiz (){
 //   var correctAnswer = doc
 // }
-var pointsCount = 0;
-let correctPoints = document.getElementById('correctAnswer');
 
- function correctAnswer(){
+
+var pointsCount = 0;
+var correctPoints = document.getElementsByName("correctPoints");
+
+ function gradeQuiz(){
    for(var i = 0; i <= x.length; i++){
      if(x[i] == " "){
      correctPoints++;
@@ -28,9 +30,30 @@ let correctPoints = document.getElementById('correctAnswer');
     }
     correctAnswer();
   }
-}
+  let div (var i = 0; i <= x.length; i++){
+    if(x[i] == " "){
+    correctPoints++;
+    }
+  let div1 (var i = 0; i <= x.length; i++){
+    if(x[i] == " "){
+    correctPoints++;
+    }
+  let div2(var i = 0; i <= x.length; i++){
+    if(x[i] == " "){
+    correctPoints++;
+    }
+  let div3(var i = 0; i <= x.length; i++){
+      if(x[i] == " "){
+      correctPoints++;
+      }
+  let div4(var i = 0; i <= x.length; i++){
+        if(x[i] == " "){
+        correctPoints++;
+        }
+        console.log("div" + "div1" + "div2" + "div3" + "div4");
 
- document.getElementById('correctPoints').innerHTML = "You have " + pointsCount + " points. ";
+
+ document.getElementsByName("correctPoints").innerHTML = "You have " + pointsCount + " points. ";
 
 
 
