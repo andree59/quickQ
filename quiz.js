@@ -14,10 +14,12 @@
 // function gradeQuiz (){
 //   var correctAnswer = doc
 // }
-
-
 var pointsCount = 0;
-var correctPoints = document.getElementsByName("correctPoints");
+var correctPoints = document.getElementsByNameId("correctPoints");
+let array = ["Cardinal", "Mike Pence", "4th", "Indianapolis", "Olivia"];
+
+function gradeQuiz(){};
+gradeQuiz.prototype.gradeQuiz=function(){}
 
  function gradeQuiz(){
    for(var i = 0; i <= x.length; i++){
@@ -26,34 +28,35 @@ var correctPoints = document.getElementsByName("correctPoints");
      }
      if( x[i] == "." || x[i] == "?" || x[i] == "!"){
        correctPoints++;
-     console.log(pointsCount)
+     return(pointsCount);
     }
-    correctAnswer();
+    correctPoints();
   }
-  let div (var i = 0; i <= x.length; i++){
-    if(x[i] == " "){
-    correctPoints++;
-    }
   let div1 (var i = 0; i <= x.length; i++){
     if(x[i] == " "){
     correctPoints++;
     }
-  let div2(var i = 0; i <= x.length; i++){
+  let div2 (var i = 0; i <= x.length; i++){
     if(x[i] == " "){
     correctPoints++;
     }
-  let div3(var i = 0; i <= x.length; i++){
+  let div3 (var i = 0; i <= x.length; i++){
+    if(x[i] == " "){
+    correctPoints++;
+    }
+  let div4 (var i = 0; i <= x.length; i++){
       if(x[i] == " "){
       correctPoints++;
       }
-  let div4(var i = 0; i <= x.length; i++){
+  let div5 (var i = 0; i <= x.length; i++){
         if(x[i] == " "){
         correctPoints++;
         }
-        console.log("div" + "div1" + "div2" + "div3" + "div4");
+        return(div1 + div2 + div3 + div4+ div5);
+    }
 
 
- document.getElementsByName("correctPoints").innerHTML = "You have " + pointsCount + " points. ";
+ document.getElementsByNameId("correctPoints").innerHTML = "You have " + pointsCount + " points. ";
 
 
 
